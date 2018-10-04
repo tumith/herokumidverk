@@ -1,1 +1,0 @@
-web: python ./midverk.py $PORT
