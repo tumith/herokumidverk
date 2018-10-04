@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 50em;
+	margin: 1em auto;
+	border: 10px black solid;
+    padding: 1em;
+}
+
+.wrapper{
+	display: block;
+}
+
+img{
+    height: 3em;
+    height: 3em;
+}
+.imgwrapper{
+	display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.box{
+    padding: 10px 0 0 0;
+	text-align: center;
+}
+
+.fyrir{
+	border: pink 5px solid;
+	margin: 0 5%;
+	padding: 0 5%;
+}
+
+.stadur{
+	flex-flow: left;
+	border: blue 5px solid;
+}
+
+footer{
+	text-align: center;
+}
